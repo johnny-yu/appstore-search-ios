@@ -23,6 +23,11 @@ cookies = {
     'xp_ab': '1#Jv0scgz+-2+GY7ecau1#NyCxKBD+-2+jM0ED8C0#ZPJNBED+-2+7ih0RSn1',
 }
 
+#ios13
+#https://apps.mzstatic.com/content/appstore-ios-13/e2c6dc88b5c05d288b61e0020430782b/app-prod.js
+
+#ios14
+#https://apps.mzstatic.com/content/2020-appstore-ios/appstore.jetpack
 
 '''
 from app-prod.js
