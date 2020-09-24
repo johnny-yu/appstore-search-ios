@@ -24,6 +24,28 @@ cookies = {
 }
 
 
+'''
+from app-prod.js
+
+    function $(e, t) {
+        const n = M(e).toString();
+        return mediaToken.refreshToken().then(e = >(function e(t, n, r = {},
+        i = !1) {
+            const o = new Fl(t),
+            a = V(o);
+            for (const e of a) o.removeParam(e);
+            let c = r.headers;
+            return c || (c = {}),
+            c.Authorization = "Bearer " + n,
+            net.fetch({
+                url: t,
+                headers: c,
+                method: r.method,
+                body: r.requestBodyString,
+                timeout: r.timeout
+            }).then(n = >{
+'''
+
 authorization ='Bearer eyJraWQiOiJGNDdEWk4xOEYwIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJBUzI4UjdHMTdNIiwiaWF0IjoxNTk0ODg5OTEyLCJleHAiOjE1OTc0ODE5MTJ9.UH8pQolrS3vjAKo0wZ0npfyMMv-xs_dBq1loW4bLFTztWJlnBfCx6Ab3B4oz3Sdz1s6ule_VNMxiWztMS_bq7Q',
 
 au_a='eyJraWQiOiJGNDdEWk4xOEYwIiwiYWxnIjoiRVMyNTYifQ'#{"kid":"F47DZN18F0","alg":"ES256"}
